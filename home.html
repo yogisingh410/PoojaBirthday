@@ -1,0 +1,621 @@
+<html>
+
+<head>
+    <title>
+        Happy Birthday
+    </title>
+
+    
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel='stylesheet' href='./styles/jquery.fullPage.css'>
+    <link rel="stylesheet" href="./styles/jquery-ui.css">
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/owl.carousel.css">
+    <link rel="stylesheet" href="./styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="./styles/owl.theme.default.css">
+    <link rel="stylesheet" href="./styles/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./styles/owl.theme.green.css">
+    <link rel="stylesheet" href="./styles/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./styles/animate.css">
+
+</head>
+<body>
+    <div id="fullpage">
+        <!--................................................Section-01..............................................-->
+    
+        <section id="section01" class="vertical-scrolling">
+              
+            <div id="heading0">
+                <h1 class="headingH1 animated slideInRight">Hey ChuChu</h1>
+            </div>
+            <div id="heading">
+                <h1 class="headingH2 animated slideInLeft">We are together since!!!</h1>
+            </div>
+
+              <div class="container animated bounce">
+
+                <div class="balloon white">
+                    <div class="star-red"></div>
+                    <div class="face">
+                        <div class="eye"></div>
+                        <div class="mouth happy"></div>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="string"></div>
+                </div>
+
+                <div class="balloon red">
+                    <div class="star"></div>
+                    <div class="face">
+                        <div class="eye"></div>
+                        <div class="mouth happy"></div>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="string"></div>
+                </div>
+
+                <div class="balloon blue">
+                    <div class="star"></div>
+                    <div class="face">
+                        <div class="eye"></div>
+                        <div class="mouth happy"></div>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="string"></div>
+                </div>
+                <div id="timer"></div>
+
+            </div>
+            <div id="heading2">
+                <h1>MADE SOMETHING FOR YOU</h1>
+            </div>
+
+            <div id="chat-button">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+        ................................................Section-02..............................................
+    -->
+        <section id="section02" class="vertical-scrolling">
+            
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+        ................................................Section-03..............................................
+    -->   
+        <section id="section03" class="vertical-scrolling">
+                <style>
+                        * {box-sizing: border-box}
+                        .mySlides {display: none}
+                        img {vertical-align: middle;}
+                        
+                        /* Slideshow container */
+                        .slideshow-container {
+                          max-width: 1000px;
+                          position: relative;
+                          margin: auto;
+                        }
+                        
+                        /* Next & previous buttons */
+                        .prev, .next {
+                          cursor: pointer;
+                          position: absolute;
+                          top: 50%;
+                          width: auto;
+                          padding: 16px;
+                          margin-top: -22px;
+                          color: white;
+                          font-weight: bold;
+                          font-size: 18px;
+                          transition: 0.6s ease;
+                          border-radius: 0 3px 3px 0;
+                          user-select: none;
+                        }
+                        
+                        /* Position the "next button" to the right */
+                        .next {
+                          right: 0;
+                          border-radius: 3px 0 0 3px;
+                        }
+                        
+                        /* On hover, add a black background color with a little bit see-through */
+                        .prev:hover, .next:hover {
+                          background-color: rgba(0,0,0,0.8);
+                        }
+                        
+                        /* Caption text */
+                        .text {
+                          color: #f2f2f2;
+                          font-size: 15px;
+                          padding: 8px 12px;
+                          position: absolute;
+                          bottom: 8px;
+                          width: 100%;
+                          text-align: center;
+                        }
+                        
+                        /* Number text (1/3 etc) */
+                        .numbertext {
+                          color: #f2f2f2;
+                          font-size: 12px;
+                          padding: 8px 12px;
+                          position: absolute;
+                          top: 0;
+                        }
+                        
+                        /* The dots/bullets/indicators */
+                        .dot {
+                          cursor: pointer;
+                          height: 15px;
+                          width: 15px;
+                          margin: 0 2px;
+                          background-color: #bbb;
+                          border-radius: 50%;
+                          display: inline-block;
+                          transition: background-color 0.6s ease;
+                        }
+                        
+                        .active, .dot:hover {
+                          background-color: #717171;
+                        }
+                        
+                        /* Fading animation */
+                        .fade {
+                          -webkit-animation-name: fade;
+                          -webkit-animation-duration: 1.5s;
+                          animation-name: fade;
+                          animation-duration: 1.5s;
+                        }
+                        
+                        @-webkit-keyframes fade {
+                          from {opacity: .4} 
+                          to {opacity: 1}
+                        }
+                        
+                        @keyframes fade {
+                          from {opacity: .4} 
+                          to {opacity: 1}
+                        }
+                        
+                        /* On smaller screens, decrease text size */
+                        @media only screen and (max-width: 300px) {
+                          .prev, .next,.text {font-size: 11px}
+                        }
+                        </style>
+                        <div class="slideshow-container">
+
+                                <div class="mySlides">
+                                  <img src="./images/section03/section03.jpg" style="width:100%">
+                                  <div class="text">This is the first click(You know what I Mean)</div>
+                                </div>
+                                
+                                <div class="mySlides">
+                                        <img src="./images/section03/section03_01.jpg" style="width:100%">
+                                        <div class="text">Fun Day</div>
+                                </div>     
+                                <div class="mySlides">
+                                    <img src="./images/section03/section03_02.jpg" style="width:100%">
+                                    <div class="text">See I am Handsome</div>
+                                </div>
+                                <div class="mySlides">
+                                    <img src="./images/section03/section03_03.jpg" style="width:100%">
+                                    <div class="text">last Year..</div>
+                                </div>
+                                <div class="mySlides">
+                                        <img src="./images/section03/section03_04.jpg" style="width:100%">
+                                        <div class="text">Cuties..</div>
+                                    </div>
+                                <div class="mySlides">
+                                            <img src="./images/section03/section03_05.jpg" style="width:100%">
+                                            <div class="text">First Time Celebration..</div>
+                                </div>
+                                
+                                <div class="mySlides">
+                                                <img src="./images/section03/section03_06.jpg" style="width:100%">
+                                <div class="text"></div>
+                                            </div>
+                                            <div class="mySlides">
+                                                    <img src="./images/section03/section03_07.jpg" style="width:100%">
+                                                    <div class="text">Jo tum aise dekhte ho..</div>
+                                                </div>
+                                <div class="mySlides">
+                                    <img src="./images/section03/section03_08.jpg" style="width:100%">
+                                    <div class="text">Cycling..what a Day</div>
+                                </div>
+                                <div class="mySlides">
+                                        <img src="./images/section03/section03_09.jpg" style="width:100%">
+                                        
+                                    </div>
+                                    <div class="mySlides">
+                                            <img src="./images/section03/section03_10.jpg" style="width:100%">
+                                            
+                                        </div>
+                                        <div class="mySlides">
+                                                <img src="./images/section03/section03_11.jpg" style="width:100%">
+                                                
+                                            </div>
+                                            <div class="mySlides">
+                                                    <img src="./images/section03/section03_12.jpg" style="width:100%">
+                                                    
+                                                </div>
+                                                <div class="mySlides">
+                                                        <img src="./images/section03/section03_13.jpg" style="width:100%">
+                                                        
+                                                    </div>
+                                                    <div class="mySlides">
+                                                            <img src="./images/section03/section03_14.jpg" style="width:100%">
+                                                            
+                                                        </div>
+                                                        <div class="mySlides">
+                                                                <img src="./images/section03/section03_15.jpg" style="width:100%">
+                                                                
+                                                            </div>
+                                                            <div class="mySlides">
+                                                                    <img src="./images/section03/section03_16.jpg" style="width:100%">
+                                                                    
+                                                                </div>
+                                                                <div class="mySlides">
+                                                                    <img src="./images/section03/section03_17.jpg" style="width:100%">
+                                                                    
+                                                                </div>
+                                                                <div class="mySlides">
+                                                                    <img style ="width:784px;height:700px;" src="./images/section03/section03_18.jpg" style="width:100%">
+                                                                    
+                                                                </div>
+                                                                <div class="mySlides">
+                                                                    <img src="./images/section03/section03_19.jpg" style="width:100%">
+                                                                    
+                                                                </div>
+                                                                <div class="mySlides">
+                                                                    <img src="./images/section03/section03_20.jpg" style="width:100%">
+                                                                    
+                                                                </div>
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                </div>
+                                <br>
+                                
+                                <div style="text-align:center">
+                                  <span class="dot" onclick="currentSlide(1)"></span> 
+                                  <span class="dot" onclick="currentSlide(2)"></span> 
+                                  <span class="dot" onclick="currentSlide(3)"></span> 
+                                  <span class="dot" onclick="currentSlide(4)"></span> 
+                                  <span class="dot" onclick="currentSlide(5)"></span> 
+                                  <span class="dot" onclick="currentSlide(6)"></span> 
+                                  <span class="dot" onclick="currentSlide(7)"></span> 
+                                  <span class="dot" onclick="currentSlide(8)"></span>
+                                  <span class="dot" onclick="currentSlide(9)"></span>
+                                  <span class="dot" onclick="currentSlide(10)"></span>
+                                  <span class="dot" onclick="currentSlide(11)"></span>
+                                  <span class="dot" onclick="currentSlide(12)"></span>
+                                  <span class="dot" onclick="currentSlide(13)"></span>
+                                  <span class="dot" onclick="currentSlide(14)"></span>
+                                  <span class="dot" onclick="currentSlide(15)"></span>
+                                  <span class="dot" onclick="currentSlide(16)"></span> 
+                                  <span class="dot" onclick="currentSlide(17)"></span> 
+                                  <span class="dot" onclick="currentSlide(18)"></span> 
+                                  <span class="dot" onclick="currentSlide(19)"></span> 
+                                  <span class="dot" onclick="currentSlide(20)"></span> 
+                                </div>
+                                
+                                <script>
+                                var slideIndex = 1;
+                                showSlides(slideIndex);
+                                
+                                function plusSlides(n) {
+                                  showSlides(slideIndex += n);
+                                }
+                                
+                                function currentSlide(n) {
+                                  showSlides(slideIndex = n);
+                                }
+                                
+                                function showSlides(n) {
+                                  var i;
+                                  var slides = document.getElementsByClassName("mySlides");
+                                  var dots = document.getElementsByClassName("dot");
+                                  if (n > slides.length) {slideIndex = 1}    
+                                  if (n < 1) {slideIndex = slides.length}
+                                  for (i = 0; i < slides.length; i++) {
+                                      slides[i].style.display = "none";  
+                                  }
+                                  for (i = 0; i < dots.length; i++) {
+                                      dots[i].className = dots[i].className.replace(" active", "");
+                                  }
+                                  slides[slideIndex-1].style.display = "block";  
+                                  dots[slideIndex-1].className += " active";
+                                }
+                                </script>
+                                
+                <div id="chat-button02">
+                    <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+                </div>
+        </section>
+
+        <!--
+        ................................................Section-04..............................................
+    -->
+
+        <section id="section04" class="vertical-scrolling">
+            <canvas id="canvas" width="1400" height="600"></canvas>
+            <h1 id="heading-page4">Look Our Favourite Colours &#128540;</h1>
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+        ................................................Section-05..............................................
+    -->
+        <section id="section05" class="vertical-scrolling">
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+        ................................................Section-06..............................................
+    -->
+
+        <section id="section06" class="vertical-scrolling">
+            <h1 id="heading-page6">Our Beautiful Moments</h1>
+            <!--Carousel-->
+            <img src="./images/section06/image01.png" alt="">
+
+            <div class="bg_heart"></div>
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+        ................................................Section-07..............................................
+    -->
+
+        <section id="section07" class="vertical-scrolling">
+            <h1 id="heading-page7">Whenever I had a bad day, Your pics made me smile &#x1F495;</h1>
+
+
+            <div class="container" id="container-page7">
+                <section class="main">
+                    <div class="ia-container">
+                        <figure>
+                            <img src="./images/section07/image01.jpg" alt="image01" id="image701"/>
+                            <input type="radio" name="radio-set" checked="checked" />
+                            <figcaption><span>One OF MY FAV.</span></figcaption>
+
+                            <figure>
+                                <img src="./images/section07/image02.jpg" alt="image02" id="image702"/>
+                                <input type="radio" name="radio-set" />
+                                <figcaption><span>MISS STYLO</span></figcaption>
+
+                                <figure>
+                                    <img src="./images/section07/image03.jpg" alt="image03" id="image703"/>
+                                    <input type="radio" name="radio-set" />
+                                    <figcaption><span>💙💙💙💙💙💙💙</span></figcaption>
+
+                                    <figure>
+                                        <img src="./images/section07/image04.jpg" alt="image04" id="image704"/>
+                                        <input type="radio" name="radio-set" />
+                                        <figcaption><span>Waaahh</span></figcaption>
+
+                                        <figure>
+                                            <img src="./images/section07/image05.png" alt="image05" id="image705"/>
+                                            <input type="radio" name="radio-set" />
+                                            <figcaption><span>Beautiful...</span></figcaption>
+
+                                            <figure>
+                                                <img src="./images/section07/image06.jpg" alt="image06" id="image706"/>
+                                                <input type="radio" name="radio-set" />
+                                                <figcaption><span>Bas iske liye hi ji rhe hai...muskurahat..</span></figcaption>
+                                                <figure>
+                                                    <img src="./images/section07/image07.jpg" alt="image07" id="image707"/>
+                                                    <input type="radio" name="radio-set" />
+                                                    <figcaption><span>Those days...Samdariya..</span></figcaption>
+                                                    <figure>
+                                                            <img src="./images/section07/image08.jpg" alt="image08" id="image708"/>
+                                                            <input type="radio" name="radio-set" />
+                                                            <figcaption><span>I LOVE YOU</span></figcaption>
+                                                            <figure>
+                                                                    <img src="./images/section07/image09.jpg" alt="image09" id="image709"/>
+                                                                    <input type="radio" name="radio-set" />
+                                                                    <figcaption><span>Simply Elegant</span></figcaption>
+                                                                    <figure>
+                                                                            <img src="./images/section07/image10.jpg" alt="image10" id="image710"/>
+                                                                            <input type="radio" name="radio-set" />
+                                                                            <figcaption><span>Kaha dekh rhe ho..</span></figcaption>
+                                                                     </figure>
+                                                                    </figure>
+                                                                </figure>
+                                                            </figure>       
+                                                </figure>
+
+                                            </figure>
+
+                                        </figure>
+
+                                    </figure>
+
+                                </figure>
+
+                            </figure>
+
+                    </div>
+                    <!-- ia-container -->
+
+                </section>
+
+            </div>
+            <div class="heart-shape" id="heart2"></div>
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+
+        </section>
+        <!--
+        ..............................................................................................
+    -->
+
+        <!--
+        ................................................Section-08..............................................
+    -->
+        <section id="section08" class="vertical-scrolling">
+            <h1 id="heading-page7">Sweet Wishes</h1>
+            <img src="./images/section08/image01.png" alt="" class="img07" id="image801">
+            <img src="./images/section08/image02.png" alt="" class="img07" id="image802">
+            <img src="./images/section08/image03.png" alt="" class="img07" id="image803">
+            <img src="./images/section08/image04.png" alt="" class="img07" id="image804">
+            <img src="./images/section08/image05.png" alt="" class="img07" id="image805">
+            <img src="./images/section08/image06.png" alt="" class="img07" id="image806">
+            <img src="./images/section08/image07.png" alt="" class="img07" id="image807">
+            <img src="./images/section08/image08.png" alt="" class="img07" id="image808">
+            <img src="./images/section08/image09.png" alt="" class="img07" id="image809">
+            <img src="./images/section08/image10.png" alt="" class="img07" id="image810">
+            <img src="./images/section08/image11.png" alt="" class="img07" id="image811">
+            <img src="./images/section08/image12.png" alt="" class="img07" id="image812">
+            <img src="./images/section08/image13.png" alt="" class="img07" id="image813">
+            <img src="./images/section08/image14.png" alt="" class="img07" id="image814">
+            <img src="./images/section08/image15.png" alt="" class="img07" id="image815">
+            <img src="./images/section08/image16.png" alt="" class="img07" id="image816">
+            <img src="./images/section08/image17.png" alt="" class="img07" id="image817">
+            <img src="./images/section08/image18.png" alt="" class="img07" id="image818">
+            <img src="./images/section08/image19.png" alt="" class="img07" id="image819">
+            <img src="./images/section08/image20.png" alt="" class="img07" id="image820">
+            <img src="./images/section08/image21.png" alt="" class="img07" id="image821">
+
+
+
+            <div class="shadow">
+            </div>
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+        ................................................Section-09..............................................
+    -->
+        <section id="section09" class="vertical-scrolling">
+            <div id="fullpage">
+
+                <div class="section">
+                    <div id="message1-page8">
+                        Good Morning Sunshine se Suruaat hoti hai and Good Night Chuchu... se dusre din ka intejaar... Meri Din aur Raat tum ho...
+                    </div>
+                    <div id="message2-page8">
+                        Thank You for allowing me to enter your life and the changes you brought within me...
+                        There's always a person for whom you want to change in anyway...
+                        I want to be the best version of mine for You...
+                        Loveeeee You.........
+                    </div>
+                    <div id="switch">
+                        <div id="circle"></div>
+                    </div>
+                    <div class="time-circle">
+                        <div class="sun"></div>
+                        <div class="moon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="stars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="water"></div>
+                    </div>
+                    <div id="intro-text">
+                        <h1 href="#" id="heading-page09">You are my Day and Night</h1>
+                    </div>
+
+                 </div>
+            </div>
+            <div id="chat-button09">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+
+        <!--
+            ................................................Section-10..............................................
+        -->
+        <section id="section10" class="vertical-scrolling">
+            <div id="container10">
+                <a class="button start">Start</a>
+                <div class="box">
+                    <div class="me full"></div>
+                </div>
+                <div class="pre_img" id="pre_image">
+                    <li data-bid="0"><img src="./images/section10/image01.JPG" id="section10Image"></li>
+                </div>
+                <div align="center"><a class="button reset" align="center">Reset</a></div>
+            </div>
+
+            <div class="cover">
+                <div class="score">
+                    <p id="scr_head"> &#9875 Puzzel Solved &#9875</p>
+                    <p id="scr_time"> Time : <span id="min">00</span> Min <span id="sec">00</span> Sec</p>
+                    <p id="scr_moves"> Moves : <span id="moves"></span></p>
+                    <p class="i">Your Love Rahul Chauhan</p>
+                    <div class="button OK">OK</div>
+                </div>
+            </div>
+            <div id="chat-button02">
+                <button class="learn-more" onclick="location.href='./chatbot/dist/index.html'">Click here when boared</button>
+            </div>
+        </section>
+        <section id="thanks" class="vertical-scrolling">
+            <div id="message1-page10"> Dekhoo... Pyar aur Ishq aur Mohabbat me kya difference hota... pyar kisi se b ho sakta hai... Ishq is more stronger feeling... Jo ki Special feeling wala hota hai... N mohabbat is something when you can feel what other is feeling and more than that... epitome of special feeling....aur kuch kahne ko naa hai bas itna hi Batao kitni mohabbat hai ????</div>
+            <div id="message3-page10">Zikar Jab hota hai kisika.. to mujhe nhi pta tum kise sochte ho.. mere khayalon me to bas tum hi aate ho... Ab kyaa...itne me itna hi milega ho gaya ....:P :P</div>
+    
+            <div id="page10-center">
+                <h2>Love You iss Janam Tak :P</h2>
+            </div>
+
+        </section>
+
+        <!--
+         ................................................Section-11..............................................
+            -->
+
+        <!-- <section id="section11" class="vertical-scrolling">
+    </section> -->
+
+        <!--
+          ................................................Section-12..............................................
+                    -->
+        </div>
+
+
+
+
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="./scripts/bootstrap-carousel-swipe.js"></script>
+        <script src="./scripts/owl.carousel.js"></script>
+        <script src="./scripts/owl.carousel.min.js"></script>
+        <script src="./scripts/index.js"></script>
+        <script src='https://unpkg.com/react/umd/react.development.js'></script>
+        <script src='https://unpkg.com/react-dom/umd/react-dom.development.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>
+            $('.carousel').carousel();
+            new WOW().init();
+        </script>
+
+</body>
+
+</html>
